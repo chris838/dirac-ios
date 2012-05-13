@@ -259,13 +259,13 @@
 				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					include/schroedinger,
-					"include/orc-0.4",
-					include,
+					build/include/schroedinger,
+					"build/include/orc-0.4",
+					build/include,
 				);
 				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = lib/armv7;
+				LIBRARY_SEARCH_PATHS = build/lib/armv7;
 				OTHER_LDFLAGS = (
 					"-lorc-0.4",
 					"-lorc-test-0.4",
@@ -287,13 +287,13 @@
 				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					include/schroedinger,
-					"include/orc-0.4",
-					include,
+					build/include/schroedinger,
+					"build/include/orc-0.4",
+					build/include,
 				);
 				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = lib/armv7;
+				LIBRARY_SEARCH_PATHS = build/lib/armv7;
 				OTHER_LDFLAGS = (
 					"-lorc-0.4",
 					"-lorc-test-0.4",
