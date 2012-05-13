@@ -17,7 +17,7 @@ make clean 2> /dev/null
 make distclean 2> /dev/null
 setenv_arm6
 bash autogen.sh
-./configure --host=arm-apple-darwin6 --enable-shared=no
+./configure --host=arm-apple-darwin6 --enable-shared=no --with-thread=none
 # Remove testsuite from build as it breaks when compiling static only
 sed -i -e 's/testsuite//g' Makefile
 make -j4
@@ -29,7 +29,7 @@ make clean 2> /dev/null
 make distclean 2> /dev/null
 setenv_arm7
 bash autogen.sh
-./configure --host=arm-apple-darwin7 --enable-shared=no
+./configure --host=arm-apple-darwin7 --enable-shared=no --with-thread=none
 # Remove testsuite from build as it breaks when compiling static only
 sed -i -e 's/testsuite//g' Makefile
 make -j4
@@ -41,7 +41,7 @@ make clean 2> /dev/null
 make distclean 2> /dev/null
 setenv_i386
 bash autogen.sh
-./configure --enable-shared=no
+./configure --enable-shared=no --with-thread=none
 # Remove testsuite from build as it breaks when compiling static only
 sed -i -e 's/testsuite//g' Makefile
 make -j4
