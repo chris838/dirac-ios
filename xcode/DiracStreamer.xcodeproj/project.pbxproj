@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E2218F1556F9910058515A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E2218E1556F9910058515A /* UIKit.framework */; };
+		30E221911556F9910058515A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E221901556F9910058515A /* Foundation.framework */; };
+		30E221931556F9910058515A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E221921556F9910058515A /* CoreGraphics.framework */; };
+		30E221991556F9910058515A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30E221971556F9910058515A /* InfoPlist.strings */; };
+		30E2219B1556F9910058515A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2219A1556F9910058515A /* main.m */; };
+		30E2219F1556F9910058515A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2219E1556F9910058515A /* AppDelegate.m */; };
+		30E221A21556F9910058515A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30E221A11556F9910058515A /* ViewController.mm */; };
+		30E221A51556F9910058515A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E221A31556F9910058515A /* ViewController_iPhone.xib */; };
+		30E221A81556F9910058515A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E221A61556F9910058515A /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30378AA7155A905900C1ABA1 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		30E2218A1556F9910058515A /* DiracStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiracStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E2218E1556F9910058515A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30E221901556F9910058515A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30E221921556F9910058515A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30E221961556F9910058515A /* DiracStreamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiracStreamer-Info.plist"; sourceTree = "<group>"; };
+		30E221981556F9910058515A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30E2219A1556F9910058515A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E2219C1556F9910058515A /* DiracStreamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiracStreamer-Prefix.pch"; sourceTree = "<group>"; };
+		30E2219D1556F9910058515A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E2219E1556F9910058515A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E221A01556F9910058515A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E221A11556F9910058515A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		30E221A41556F9910058515A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		30E221A71556F9910058515A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E221871556F9910058515A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2218F1556F9910058515A /* UIKit.framework in Frameworks */,
+				30E221911556F9910058515A /* Foundation.framework in Frameworks */,
+				30E221931556F9910058515A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E2217F1556F9910058515A = {
+			isa = PBXGroup;
+			children = (
+				30E221941556F9910058515A /* DiracStreamer */,
+				30E2218D1556F9910058515A /* Frameworks */,
+				30E2218B1556F9910058515A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E2218B1556F9910058515A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E2218A1556F9910058515A /* DiracStreamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E2218D1556F9910058515A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E2218E1556F9910058515A /* UIKit.framework */,
+				30E221901556F9910058515A /* Foundation.framework */,
+				30E221921556F9910058515A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30E221941556F9910058515A /* DiracStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				30378AA7155A905900C1ABA1 /* config.h */,
+				30E2219D1556F9910058515A /* AppDelegate.h */,
+				30E2219E1556F9910058515A /* AppDelegate.m */,
+				30E221A01556F9910058515A /* ViewController.h */,
+				30E221A11556F9910058515A /* ViewController.mm */,
+				30E221A31556F9910058515A /* ViewController_iPhone.xib */,
+				30E221A61556F9910058515A /* ViewController_iPad.xib */,
+				30E221951556F9910058515A /* Supporting Files */,
+			);
+			path = DiracStreamer;
+			sourceTree = "<group>";
+		};
+		30E221951556F9910058515A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E221961556F9910058515A /* DiracStreamer-Info.plist */,
+				30E221971556F9910058515A /* InfoPlist.strings */,
+				30E2219A1556F9910058515A /* main.m */,
+				30E2219C1556F9910058515A /* DiracStreamer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E221891556F9910058515A /* DiracStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E221AB1556F9910058515A /* Build configuration list for PBXNativeTarget "DiracStreamer" */;
+			buildPhases = (
+				30E221861556F9910058515A /* Sources */,
+				30E221871556F9910058515A /* Frameworks */,
+				30E221881556F9910058515A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiracStreamer;
+			productName = DiracStreamer;
+			productReference = 30E2218A1556F9910058515A /* DiracStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E221811556F9910058515A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Swift Navigation";
+			};
+			buildConfigurationList = 30E221841556F9910058515A /* Build configuration list for PBXProject "DiracStreamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30E2217F1556F9910058515A;
+			productRefGroup = 30E2218B1556F9910058515A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E221891556F9910058515A /* DiracStreamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E221881556F9910058515A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E221991556F9910058515A /* InfoPlist.strings in Resources */,
+				30E221A51556F9910058515A /* ViewController_iPhone.xib in Resources */,
+				30E221A81556F9910058515A /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E221861556F9910058515A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2219B1556F9910058515A /* main.m in Sources */,
+				30E2219F1556F9910058515A /* AppDelegate.m in Sources */,
+				30E221A21556F9910058515A /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30E221971556F9910058515A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E221981556F9910058515A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30E221A31556F9910058515A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E221A41556F9910058515A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		30E221A61556F9910058515A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E221A71556F9910058515A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E221A91556F9910058515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E221AA1556F9910058515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E221AC1556F9910058515A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					include/schroedinger,
+					"include/orc-0.4",
+					include,
+				);
+				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = lib/armv7;
+				OTHER_LDFLAGS = (
+					"-lorc-0.4",
+					"-lorc-test-0.4",
+					"-lschroedinger-1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30E221AD1556F9910058515A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					include/schroedinger,
+					"include/orc-0.4",
+					include,
+				);
+				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = lib/armv7;
+				OTHER_LDFLAGS = (
+					"-lorc-0.4",
+					"-lorc-test-0.4",
+					"-lschroedinger-1.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E221841556F9910058515A /* Build configuration list for PBXProject "DiracStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E221A91556F9910058515A /* Debug */,
+				30E221AA1556F9910058515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E221AB1556F9910058515A /* Build configuration list for PBXNativeTarget "DiracStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E221AC1556F9910058515A /* Debug */,
+				30E221AD1556F9910058515A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E221811556F9910058515A /* Project object */;
+}
