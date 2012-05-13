@@ -6,3 +6,7 @@ xcuserdata/
 
 # Emacs temp files #
 *~
+
+# Build dirs #
+build
+pkg-config
