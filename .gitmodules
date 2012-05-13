@@ -1,0 +1,6 @@
+[submodule "orc"]
+	path = orc
+	url = git://code.entropywave.com/git/orc.git
+[submodule "schro"]
+	path = schro
+	url = git://code.entropywave.com/git/schroedinger.git
