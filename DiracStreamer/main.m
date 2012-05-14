@@ -14,13 +14,13 @@ int main(int argc, char *argv[])
 {
     int retVal = 0;
     
-    //NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     //@autoreleasepool {
     
         retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     
     //}
-    //[pool drain];
+    [pool drain];
     
     return retVal;
 }

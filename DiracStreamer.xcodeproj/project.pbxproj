@@ -16,6 +16,7 @@
 		30E221A21556F9910058515A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30E221A11556F9910058515A /* ViewController.mm */; };
 		30E221A51556F9910058515A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E221A31556F9910058515A /* ViewController_iPhone.xib */; };
 		30E221A81556F9910058515A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E221A61556F9910058515A /* ViewController_iPad.xib */; };
+		30F558DB1560FDBB00E47CD7 /* test-schro.c in Sources */ = {isa = PBXBuildFile; fileRef = 30F558DA1560FDBB00E47CD7 /* test-schro.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		30E221A11556F9910058515A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		30E221A41556F9910058515A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		30E221A71556F9910058515A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		30F558DA1560FDBB00E47CD7 /* test-schro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "test-schro.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		30E221941556F9910058515A /* DiracStreamer */ = {
 			isa = PBXGroup;
 			children = (
+				30F558DA1560FDBB00E47CD7 /* test-schro.c */,
 				30378AA7155A905900C1ABA1 /* config.h */,
 				30E2219D1556F9910058515A /* AppDelegate.h */,
 				30E2219E1556F9910058515A /* AppDelegate.m */,
@@ -170,6 +173,7 @@
 				30E2219B1556F9910058515A /* main.m in Sources */,
 				30E2219F1556F9910058515A /* AppDelegate.m in Sources */,
 				30E221A21556F9910058515A /* ViewController.mm in Sources */,
+				30F558DB1560FDBB00E47CD7 /* test-schro.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +259,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -283,6 +288,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DiracStreamer/DiracStreamer-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
