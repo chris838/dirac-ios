@@ -1,0 +1,9 @@
+Instructions
+
+1. If you didn't get them already, checkout the submodules by running:
+      git submodule update --init
+
+2. Build orc and shroedinger for iOS by running:
+      ./build-orc.sh && ./build-schro.sh
+
+3. If the build scripts worked then the Xcode project should build with no errors.
