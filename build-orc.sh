@@ -11,7 +11,7 @@ cd $ORC_LIB
 rm -rf $LOCAL_OUTDIR
 mkdir -p $LOCAL_OUTDIR/armv6 $LOCAL_OUTDIR/armv7 $LOCAL_OUTDIR/i386
 
-:<< COMMENT
+#:<< COMMENT
 make clean 2> /dev/null
 make distclean 2> /dev/null
 setenv_arm6
@@ -27,7 +27,7 @@ cp -f orc-0.4.pc $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^prefix=.*@prefix=${GLOBAL_OUTDIR}@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^libdir=.*@libdir=\$\{exec_prefix\}/lib/armv6@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^toolsdir=.*@toolsdir=\$\{exec_prefix\}/bin/armv6@" $PKG_CONFIG_PATH/orc-0.4.pc
-COMMENT
+#COMMENT
 
 make clean 2> /dev/null
 make distclean 2> /dev/null
@@ -45,7 +45,7 @@ sed -i -e "s@^prefix=.*@prefix=${GLOBAL_OUTDIR}@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^libdir=.*@libdir=\$\{exec_prefix\}/lib/armv7@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^toolsdir=.*@toolsdir=\$\{exec_prefix\}/bin/armv7@" $PKG_CONFIG_PATH/orc-0.4.pc
 
-:<< COMMENT
+#:<< COMMENT
 make clean 2> /dev/null
 make distclean 2> /dev/null
 setenv_i386
@@ -61,7 +61,7 @@ cp -f orc-0.4.pc $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^prefix=.*@prefix=${GLOBAL_OUTDIR}@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^libdir=.*@libdir=\$\{exec_prefix\}/lib/i386@" $PKG_CONFIG_PATH/orc-0.4.pc
 sed -i -e "s@^toolsdir=.*@toolsdir=\$\{exec_prefix\}/bin/i386@" $PKG_CONFIG_PATH/orc-0.4.pc
-COMMENT
+#COMMENT
 
 # Copy header files
 mkdir -p $GLOBAL_OUTDIR/include/orc-0.4/orc && cp -rvf orc/*.h $GLOBAL_OUTDIR/include/orc-0.4/orc

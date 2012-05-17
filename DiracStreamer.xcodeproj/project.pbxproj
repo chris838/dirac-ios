@@ -270,10 +270,9 @@
 				);
 				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = build/lib/armv7;
+				LIBRARY_SEARCH_PATHS = build/lib/i386;
 				OTHER_LDFLAGS = (
 					"-lorc-0.4",
-					"-lorc-test-0.4",
 					"-lschroedinger-1.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,10 +298,9 @@
 				);
 				INFOPLIST_FILE = "DiracStreamer/DiracStreamer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = build/lib/armv7;
+				LIBRARY_SEARCH_PATHS = build/lib/i386;
 				OTHER_LDFLAGS = (
 					"-lorc-0.4",
-					"-lorc-test-0.4",
 					"-lschroedinger-1.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
