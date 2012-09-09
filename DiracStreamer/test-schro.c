@@ -1,5 +1,3 @@
-#ifdef GO_AWAY
-
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
@@ -244,5 +242,4 @@ run_schro_test()
   return 0;
 }
 
-#endif
 

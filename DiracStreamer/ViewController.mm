@@ -15,7 +15,7 @@
 #include <schroedinger/schro.h>
 #include <schroedinger/schrodebug.h>
 
-//#import "test-schro.c"
+#import "test-schro.c"
 
 static void
 frame_free (SchroFrame *frame, void *priv)
@@ -106,10 +106,10 @@ test (int w, int h)
     [super viewDidLoad];
     
     
-    //NSLog(@"Testing schro library via orc");
-    //run_schro_test();
+    NSLog(@"Testing schro library via orc");
+    run_schro_test();
     
-    
+    /*
     NSLog(@"Testing schro library encode");
     int h, w;
     
@@ -123,6 +123,7 @@ test (int w, int h)
             }
         }
     }
+    */
     
 }
 
